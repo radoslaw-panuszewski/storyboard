@@ -1,4 +1,4 @@
-// Generated from /Users/brian/code/bnorm/deck.bnorm.dev/storyboard/storyboard-text/antlr/kotlin/KotlinParser.g4 by ANTLR 4.13.1
+// Generated from /Users/radoslaw.panuszewski/IdeaProjects/storyboard/storyboard-text/antlr/kotlin/KotlinParser.g4 by ANTLR 4.13.1
 package dev.bnorm.storyboard.text.highlight.antlr.kotlin
 
 import org.antlr.v4.kotlinruntime.tree.ParseTreeListener
@@ -1588,6 +1588,20 @@ public interface KotlinParserListener : ParseTreeListener {
      * @param ctx The parse tree
      */
     public fun exitMultiLineStringLiteral(ctx: KotlinParser.MultiLineStringLiteralContext)
+
+    /**
+     * Enter a parse tree produced by [KotlinParser.multiDollar].
+     *
+     * @param ctx The parse tree
+     */
+    public fun enterMultiDollar(ctx: KotlinParser.MultiDollarContext)
+
+    /**
+     * Exit a parse tree produced by [KotlinParser.multiDollar].
+     *
+     * @param ctx The parse tree
+     */
+    public fun exitMultiDollar(ctx: KotlinParser.MultiDollarContext)
 
     /**
      * Enter a parse tree produced by [KotlinParser.lineStringContent].

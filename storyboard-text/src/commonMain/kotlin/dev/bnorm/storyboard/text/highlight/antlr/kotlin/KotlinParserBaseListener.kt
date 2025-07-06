@@ -1,4 +1,4 @@
-// Generated from /Users/brian/code/bnorm/deck.bnorm.dev/storyboard/storyboard-text/antlr/kotlin/KotlinParser.g4 by ANTLR 4.13.1
+// Generated from /Users/radoslaw.panuszewski/IdeaProjects/storyboard/storyboard-text/antlr/kotlin/KotlinParser.g4 by ANTLR 4.13.1
 package dev.bnorm.storyboard.text.highlight.antlr.kotlin
 
 import org.antlr.v4.kotlinruntime.ParserRuleContext
@@ -1140,6 +1140,16 @@ public open class KotlinParserBaseListener : KotlinParserListener {
      * The default implementation does nothing.
      */
     override fun exitMultiLineStringLiteral(ctx: KotlinParser.MultiLineStringLiteralContext) {}
+
+    /**
+     * The default implementation does nothing.
+     */
+    override fun enterMultiDollar(ctx: KotlinParser.MultiDollarContext) {}
+
+    /**
+     * The default implementation does nothing.
+     */
+    override fun exitMultiDollar(ctx: KotlinParser.MultiDollarContext) {}
 
     /**
      * The default implementation does nothing.
